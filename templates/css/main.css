@@ -1,0 +1,170 @@
+body {
+    margin: 0;
+    background-image: url(../images/3.jpg);
+    background-size: 100%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.clearfix {
+    clear: both;
+}
+
+
+header {
+    height: 100px;
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    margin-bottom: 40px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#h2 {
+    display: inline;
+}
+#h2 h2 {
+    width: 100px;
+
+    margin-left: 30px;
+    padding-bottom: 20px;
+
+    font-size: 30px;
+
+    color: rgb(255, 0, 0);
+    text-shadow: 15px 24px 3px rgb(255, 255, 255);
+    opacity: 0.8;
+}
+
+
+div#auth {
+    margin-right: 20px;
+}
+div#auth form{
+    margin-top: 30px;
+    
+}
+div#auth form input[type="checkbox"] {
+    margin-top: 10px;
+    margin-left: 155px;
+}
+div#auth form label {
+
+    color: white;
+    font-size: 12px;
+}
+div#auth input[type="text"], div#auth input[type="password"] {
+    width: 150px;
+}
+div#auth input[type="text"]:focus, div#auth input[type="password"]:focus {
+    outline:none;
+}
+div#auth input[type="submit"] {
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-weight: 700;
+}
+div#auth input[type="submit"]:hover {
+    border-color: red;
+    background-color: red;
+}
+
+
+#mainCont {
+    height: 80%;
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+
+    box-shadow: 5px 5px 20px rgb(46, 46, 46);
+
+    margin-bottom: 37px;
+}
+#mainCont img {
+    width: 45%;
+    float: left;
+}
+
+#registr {
+    margin-left: 60%;
+}
+#registr h2 {
+    color: white;
+    font-weight: 500;
+    line-height: 60px;
+}
+#registr form {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+#registr input {
+    margin-bottom: 12px;
+    width: 35%;
+    height: 25px;
+    font-size: 10pt;
+}
+
+#registr input[name="email_reg"] {
+    width: 71%;
+}
+#registr input[type="submit"] {
+    background-color: white;
+    color: black;
+    border-color: white;
+    font-size: 10pt;
+    font-weight: bold;
+    width: 130px;
+}
+#registr input:focus {
+    outline:none;
+}
+#registr input[type="submit"]:hover {
+    border-color: red;
+    background-color: red;
+}
+
+@media screen and (max-width: 1088px){ 
+    body {
+        background-size: 1100px;
+        background-position: top center;
+    }
+}
+@media screen and (max-width: 800px){ 
+    header {
+        width: 560px;
+    }
+    #mainCont {
+        width: 560px;
+    }
+}
+
+
+@media screen and (max-width: 1190px){ 
+    #registr {
+        margin-left: 55%;
+    }
+    #registr input {
+        width: 40%;
+    }
+    
+    #registr input[name="email_reg"] {
+        width: 81%;
+    }
+}
+@media screen and (max-width: 1040px){ 
+    #registr {
+        margin-left: 50%;
+    }
+    
+}
+@media screen and (max-width: 935px){ 
+    #registr {
+        margin-left: 45%;
+    }
+    #registr h2 {
+        margin-bottom: 10px;
+    }
+}

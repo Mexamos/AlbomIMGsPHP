@@ -1,0 +1,41 @@
+div#auth {
+	margin: 0 auto;
+	width: 300px;
+	height: 150px;
+
+	text-align: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+div#auth h2 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 16pt;
+}
+div#auth input[type="password"] {
+	margin-left: 5px;
+}
+div#auth input[type="password"]:focus, div#auth input[type="text"]:focus{
+	outline: 1px solid red;
+}
+div#auth label {
+	font-size: 13px;
+	line-height: 30px;
+}
+div#auth input[type="submit"] {
+	color: red;
+	background-color: black;
+	border-color: black;
+	line-height: 25px;
+	width: 80px;
+}
+
+
+#triangle-down {
+	width: 400px;
+	height: 400px;
+	border-radius: 200px;
+    
+	background-image: url(https://s-media-cache-ak0.pinimg.com/originals/8c/71/ad/8c71ad124b9e9e146fda8abb82743ad2.gif);
+	
+	margin: 0 auto;
+}
